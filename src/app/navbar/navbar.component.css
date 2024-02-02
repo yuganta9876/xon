@@ -1,0 +1,14 @@
+/* Add these styles to your global styles or component styles */
+@keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .animate-pulse {
+    animation: pulse 1.5s infinite;
+  }
+  
